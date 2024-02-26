@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* TASK 1 */
+.Task1{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(173, 158, 158);
+    display: flex;
+    margin-bottom: 40px;
+}
+
+ .Task1 .innerbox{
+    width: 100%;
+    background-color: rgb(100, 158, 135);
+ } 
+ .Task1  .innerbox:nth-child(2){
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ } 
+ .Task1 .innerbox .litbox{
+    width: 50%;
+    height: 50%;
+ }
+ .Task1 .innerbox .litbox:nth-child(1){
+    background-color: rgb(0, 0, 255);
+ }
+ .Task1 .innerbox .litbox:nth-child(2){
+    background-color: rgb(0, 255, 38);
+ }
+ .Task1 .innerbox .litbox:nth-child(3){
+    background-color: rgb(255, 0, 230);
+ }
+ .Task1 .innerbox .litbox:nth-child(4){
+    background-color: rgb(255, 234, 0);
+ }
+
+/* TASK 2 */
+.Task2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+}
+.Task2 .litbox{
+    margin: 1%;
+    width: 30%;
+    height: 200px;
+}
+.Task2 .litbox:nth-child(1){
+    background-color: rgb(41, 229, 91);
+}
+.Task2 .litbox:nth-child(2){
+    background-color: rgb(138, 52, 162);
+}
+.Task2 .litbox:nth-child(3){
+    background-color: rgb(234, 41, 141);
+}
+.Task2 .litbox:nth-child(4){
+    background-color: rgb(154, 49, 185);
+}
+.Task2 .litbox:nth-child(5){
+    background-color: rgb(59, 209, 204);
+}
+.Task2 .litbox:nth-child(6){
+    background-color: rgb(243, 220, 245);
+}
+/* TASK 3 */
+.Task3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Task3 .bigbox:nth-child(1){
+    display: flex;
+    width: 100%;
+    height: 160px;
+    margin-bottom: 40px;
+   justify-content: flex-start;
+   
+}
+.Task3 .bigbox:nth-child(1) .litbox{ 
+    width:20%;
+}
+.Task3 .bigbox:nth-child(1) .litbox:nth-child(1){
+    background-color: darkslategray;
+}
+.Task3 .bigbox:nth-child(1) .litbox:nth-child(2){
+    background-color:darkturquoise;
+}
+.Task3 .bigbox:nth-child(1) .litbox:nth-child(3){
+    background-color:dodgerblue;
+}
+
+
+.Task3 .bigbox:nth-child(2){
+    display: flex;
+    width: 100%;
+    height: 160px;
+    margin-bottom: 40px;
+   justify-content: flex-end;
+   
+}
+.Task3 .bigbox:nth-child(2) .litbox{ 
+    width:20%;
+}
+.Task3 .bigbox:nth-child(2) .litbox:nth-child(1){
+    background-color: darkslategray;
+}
+.Task3 .bigbox:nth-child(2) .litbox:nth-child(2){
+    background-color:darkturquoise;
+}
+.Task3 .bigbox:nth-child(2) .litbox:nth-child(3){
+    background-color:dodgerblue;
+}
+
+.Task3 .bigbox:nth-child(3){
+    display: flex;
+    width: 100%;
+    height: 160px;
+    margin-bottom: 40px;
+   justify-content: space-between;
+   
+}
+.Task3 .bigbox:nth-child(3) .litbox{ 
+    width:20%;
+}
+.Task3 .bigbox:nth-child(3) .litbox:nth-child(1){
+    background-color: darkslategray;
+}
+.Task3 .bigbox:nth-child(3) .litbox:nth-child(2){
+    background-color:darkturquoise;
+}
+.Task3 .bigbox:nth-child(3) .litbox:nth-child(3){
+    background-color:dodgerblue;
+}
+
+.Task3 .bigbox:nth-child(4){
+    display: flex;
+    width: 100%;
+    height: 160px;
+    margin-bottom: 40px;
+   justify-content: space-around;
+   
+}
+.Task3 .bigbox:nth-child(4) .litbox{ 
+    width:20%;
+}
+.Task3 .bigbox:nth-child(4) .litbox:nth-child(1){
+    background-color: darkslategray;
+}
+.Task3 .bigbox:nth-child(4) .litbox:nth-child(2){
+    background-color:darkturquoise;
+}
+.Task3 .bigbox:nth-child(4) .litbox:nth-child(3){
+    background-color:dodgerblue;
+}
+
+/* TASK 4 */
+.Task4{
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.Task4 .bigbox{
+    margin: 1%;
+    width: 100%;
+    background-color: rgb(123, 133, 120);
+}
+
+.Task4 .bigbox .litbox{
+    width: 50%;
+    height: 150px;
+}
+
+/* 1 */
+.Task4 .bigbox:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Task4 .bigbox:nth-child(1) .litbox:nth-child(1){
+    background-color: darkslategray;
+}
+.Task4 .bigbox:nth-child(1) .litbox:nth-child(2){
+    background-color:darkturquoise;
+}
+.Task4 .bigbox:nth-child(1) .litbox:nth-child(3){
+    background-color:dodgerblue;
+}
+
+/* 2 */
+.Task4 .bigbox:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+
+.Task4 .bigbox:nth-child(2) .litbox:nth-child(1){
+    background-color: darkslategray;
+}
+.Task4 .bigbox:nth-child(2) .litbox:nth-child(2){
+    background-color:darkturquoise;
+}
+.Task4 .bigbox:nth-child(2) .litbox:nth-child(3){
+    background-color:dodgerblue;
+}
+
+/* 3 */
+.Task4 .bigbox:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.Task4 .bigbox:nth-child(3) .litbox:nth-child(1){
+    background-color: darkslategray;
+}
+.Task4 .bigbox:nth-child(3) .litbox:nth-child(2){
+    background-color:darkturquoise;
+}
+.Task4 .bigbox:nth-child(3) .litbox:nth-child(3){
+    background-color:dodgerblue;
+}
+
+
+/* 4 */
+
+.Task4 .bigbox:nth-child(4){
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+
+.Task4 .bigbox:nth-child(4) .litbox:nth-child(1){
+    background-color: darkslategray;
+}
+.Task4 .bigbox:nth-child(4) .litbox:nth-child(2){
+    background-color:darkturquoise;
+}
+.Task4 .bigbox:nth-child(4) .litbox:nth-child(3){
+    background-color:dodgerblue;
+}
+
+/* 5 */
+.Task4 .bigbox:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+
+.Task4 .bigbox:nth-child(5) .litbox:nth-child(1){
+    background-color: darkslategray;
+}
+.Task4 .bigbox:nth-child(5) .litbox:nth-child(2){
+    background-color:darkturquoise;
+}
+.Task4 .bigbox:nth-child(5) .litbox:nth-child(3){
+    background-color:dodgerblue;
+}
+
+/* TASK 5 */
+.Task5{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(173, 158, 158);
+    display: flex;
+    margin-bottom: 40px;
+}
+
+ .Task5 .innerbox{
+    width: 100%;
+ } 
+ .Task5 .innerbox:nth-child(1) .litbox{
+    width: 100%;
+    height: 50%;
+ }
+ .Task5  .innerbox:nth-child(1){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ } 
+ .Task5 .innerbox:nth-child(1) .litbox:nth-child(1){
+    background-color: rgb(0, 255, 110);
+ }
+ .Task5 .innerbox:nth-child(1) .litbox:nth-child(2){
+    background-color: rgb(255, 0, 0);
+ }
+
+
+ .Task5  .innerbox:nth-child(2){
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ } 
+ .Task5 .innerbox:nth-child(2) .litbox{
+    width: 50%;
+    height: 50%;
+ }
+ .Task5 .innerbox:nth-child(2) .litbox:nth-child(1){
+    background-color: rgb(0, 0, 255);
+ }
+ .Task5 .innerbox:nth-child(2)  .litbox:nth-child(2){
+    background-color: rgb(0, 255, 38);
+ }
+ .Task5 .innerbox:nth-child(2) .litbox:nth-child(3){
+    background-color: rgb(255, 0, 230);
+ }
+ .Task5 .innerbox:nth-child(2)  .litbox:nth-child(4){
+    background-color: rgb(255, 234, 0);
+ }
